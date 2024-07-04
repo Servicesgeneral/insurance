@@ -49,13 +49,18 @@
             text-decoration: none;
         }
         @media (max-width: 600px) {
+            header {
+                padding: 10px;
+            }
             .button {
                 font-size: 14px;
-                padding: 8px 16px;
+                padding: 10px;
+                width: 90%;
+                max-width: 100%;
             }
             .whatsapp-icon {
                 font-size: 20px;
-                padding: 8px;
+                padding: 10px;
                 bottom: 10px;
                 right: 10px;
             }
