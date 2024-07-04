@@ -20,15 +20,17 @@
             padding: 20px;
         }
         .button {
-            display: inline-block;
-            margin: 10px;
-            padding: 10px 20px;
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            padding: 15px;
             font-size: 16px;
             color: #fff;
             background-color: #007bff;
             border: none;
             border-radius: 5px;
             text-decoration: none;
+            text-align: center;
             cursor: pointer;
         }
         .whatsapp-icon {
@@ -44,6 +46,12 @@
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
             cursor: pointer;
             text-decoration: none;
+        }
+        @media (min-width: 600px) {
+            .button {
+                display: inline-block;
+                width: auto;
+            }
         }
     </style>
 </head>
