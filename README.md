@@ -31,7 +31,7 @@
             text-decoration: none;
             text-align: center;
             cursor: pointer;
-            width: 80%;
+            width: calc(100% - 40px);
             max-width: 300px;
         }
         .whatsapp-icon {
@@ -49,13 +49,10 @@
             text-decoration: none;
         }
         @media (max-width: 600px) {
-            header {
-                padding: 10px;
-            }
             .button {
                 font-size: 14px;
                 padding: 10px;
-                width: 90%;
+                width: calc(100% - 40px);
                 max-width: 100%;
             }
             .whatsapp-icon {
