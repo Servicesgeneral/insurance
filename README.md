@@ -21,9 +21,8 @@
         }
         .button {
             display: block;
-            width: 100%;
-            margin: 10px 0;
-            padding: 15px;
+            margin: 10px auto;
+            padding: 10px 20px;
             font-size: 16px;
             color: #fff;
             background-color: #007bff;
@@ -32,6 +31,8 @@
             text-decoration: none;
             text-align: center;
             cursor: pointer;
+            width: 80%;
+            max-width: 300px;
         }
         .whatsapp-icon {
             position: fixed;
@@ -47,10 +48,16 @@
             cursor: pointer;
             text-decoration: none;
         }
-        @media (min-width: 600px) {
+        @media (max-width: 600px) {
             .button {
-                display: inline-block;
-                width: auto;
+                font-size: 14px;
+                padding: 8px 16px;
+            }
+            .whatsapp-icon {
+                font-size: 20px;
+                padding: 8px;
+                bottom: 10px;
+                right: 10px;
             }
         }
     </style>
