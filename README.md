@@ -5,6 +5,8 @@
     <title>صفحة التأمين</title>
     <!-- إضافة Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- إضافة Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,15 +19,17 @@
             position: fixed;
             bottom: 20px;
             right: 20px;
-            background-color: #25d366;
-            color: #fff;
-            padding: 10px;
-            border-radius: 50%;
-            text-align: center;
-            font-size: 24px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            display: flex;
+            align-items: center;
+            font-size: 48px;
             cursor: pointer;
             text-decoration: none;
+            color: #25d366;
+        }
+        .whatsapp-text {
+            font-size: 16px;
+            margin-right: 10px;
+            color: #000;
         }
     </style>
 </head>
@@ -37,7 +41,10 @@
         <a href="https://visitvisaportal.burujinsurance.com/#/public" class="btn btn-primary btn-block mb-3">تقديم طلب تأمين</a>
         <a href="https://chi.gov.sa/ServicesDirectory/Pages/Default.aspx" class="btn btn-primary btn-block mb-3">الاستعلام عن التأمين</a>
     </div>
-    <a href="https://wa.me/966507938018" class="whatsapp-icon">واتساب</a>
+    <a href="https://wa.me/966507938018" class="whatsapp-icon">
+        <span class="whatsapp-text">للمساعدة، تواصل معي واتساب</span>
+        <i class="fab fa-whatsapp"></i>
+    </a>
 
     <!-- إضافة Bootstrap JS و jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -46,22 +53,22 @@
 </body>
 </html>
 <script type="text/javascript">
-	atOptions = {
-		'key' : 'c7d795db55e3077ea5c3b528f903a387',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
+    atOptions = {
+        'key' : 'c7d795db55e3077ea5c3b528f903a387',
+        'format' : 'iframe',
+        'height' : 50,
+        'width' : 320,
+        'params' : {}
+    };
 </script>
 <script type="text/javascript" src="//embitterlorrycar.com/c7d795db55e3077ea5c3b528f903a387/invoke.js"></script>
 <script type="text/javascript">
-	atOptions = {
-		'key' : '6c1bbddb6bbdb86e7cda837fbf7da6c4',
-		'format' : 'iframe',
-		'height' : 250,
-		'width' : 300,
-		'params' : {}
-	};
+    atOptions = {
+        'key' : '6c1bbddb6bbdb86e7cda837fbf7da6c4',
+        'format' : 'iframe',
+        'height' : 250,
+        'width' : 300,
+        'params' : {}
+    };
 </script>
 <script type="text/javascript" src="//embitterlorrycar.com/6c1bbddb6bbdb86e7cda837fbf7da6c4/invoke.js"></script>
