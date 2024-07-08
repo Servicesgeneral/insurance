@@ -52,24 +52,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-<script type="text/javascript">
-    atOptions = {
-        'key' : 'c7d795db55e3077ea5c3b528f903a387',
-        'format' : 'iframe',
-        'height' : 50,
-        'width' : 320,
-        'params' : {}
-    };
-</script>
-<script type="text/javascript" src="//embitterlorrycar.com/c7d795db55e3077ea5c3b528f903a387/invoke.js"></script>
-<script type="text/javascript">
-    atOptions = {
-        'key' : '6c1bbddb6bbdb86e7cda837fbf7da6c4',
-        'format' : 'iframe',
-        'height' : 250,
-        'width' : 300,
-        'params' : {}
-    };
-</script>
-<script type="text/javascript" src="//embitterlorrycar.com/6c1bbddb6bbdb86e7cda837fbf7da6c4/invoke.js"></script>
 <script type='text/javascript' src='//embitterlorrycar.com/07/d5/ac/07d5acabcbfb0e843f499e904565f063.js'></script>
